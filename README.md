@@ -31,8 +31,10 @@ from the repository's `main` branch. The notebook then plots results for five
 small spin-chain models; you can edit the model parameters and observables and
 rerun the cells.
 
-No local installation is required. The demos use $L=6$ or $L=8$ by default;
-start with these sizes because dense exact diagonalization scales exponentially.
+No local installation is required. Each model cell defines its own chain length.
+Most demos use $L=6$ or $L=8$; the disordered Heisenberg demo uses $L=11$ and
+$O=Z_0 Z_1$ to reproduce the representative result above. Set `L_dis=8` for a
+faster run. Dense exact diagonalization scales exponentially with chain length.
 
 ## Features
 

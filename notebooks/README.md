@@ -9,7 +9,10 @@
   repository root, then open the notebook with a kernel using that Python
   environment. The Colab installation step is skipped locally.
 
-The demo uses small systems (`L=6` or `L=8`) and displays five plots inline.
+Each model cell defines its own chain length, and the notebook displays five
+plots inline. Most models use `L=6` or `L=8`; the disordered Heisenberg example
+uses `L_dis=11` and the observable `Z0 Z1`, matching the README representative
+result. Set `L_dis=8` for a faster run.
 
 ## Notebook hygiene
 
