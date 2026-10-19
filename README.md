@@ -189,6 +189,11 @@ explicit constructor signatures.
 See `docs/model_symmetries.md` for a concise symmetry guide for each
 demonstration Hamiltonian.
 
+The examples span different integrability and symmetry settings and include
+local and nonlocal observables. See the [demo notebook](notebooks/demo_eth_models.ipynb)
+for a model-by-model ETH interpretation guide, including the integrable XXZ
+comparison and the symmetry and observable caveats for the other examples.
+
 ## Examples
 
 Run example scripts from the repository root:
