@@ -172,7 +172,7 @@ plot_eth_diagonal_scatter(result, ax=None, figsize=(6.4, 4.8), marker_size=5.0, 
 - Transverse-field Ising chain
 - XXZ chain
 - Disordered Heisenberg chain
-- Z2 x Z2 projective XYZ chain (Eq. (5.14)-inspired)
+- $\mathbb{Z}_2 \times \mathbb{Z}_2$ projective XYZ chain (Eq. (5.14)-inspired)
 - Random Pauli-string Hamiltonian
 
 For `disordered_heisenberg_chain`, weak disorder is configurable for all
