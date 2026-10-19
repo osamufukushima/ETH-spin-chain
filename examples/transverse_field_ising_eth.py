@@ -22,7 +22,7 @@ from standard_models import transverse_field_ising_chain
 
 def main() -> None:
     ham = transverse_field_ising_chain(L=8, j=1.0, h=1.05, g=0.2)
-    observable = ObservableSpec([ObservableTerm(sites=[0], ops="Z")])
+    observable = ObservableSpec([ObservableTerm(sites=[0, 1], ops="ZZ")])
 
     diagonalized = DiagonalizedHamiltonian.from_spec(ham)
     result = eth_elements(diagonalized, observable)
@@ -34,6 +34,7 @@ def main() -> None:
     output_dir.mkdir(exist_ok=True)
     fig, ax = plot_eth_diagonal_scatter(result, color="tab:green")
     ax.set_title("Transverse-Field Ising Chain: ETH Diagonal Elements")
+    ax.set_ylabel(r"$\langle E_i|Z_0 Z_1|E_i\rangle$")
     fig.tight_layout()
     fig.savefig(output_dir / "transverse_field_ising_eth.png", dpi=200)
 
