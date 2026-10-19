@@ -1,0 +1,25 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Python environments
+.env
+.envrc
+.venv/
+env/
+venv/
+
+# Build and packaging artifacts
+build/
+dist/
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Local output from examples
+outputs/
+runs/
+
+# macOS Finder metadata
+.DS_Store
