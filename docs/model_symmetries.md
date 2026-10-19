@@ -127,7 +127,7 @@ ETH relevance:
 
 - This model is designed as a generic non-integrable stress test.
 
-## 5. Z2 x Z2 Projective XYZ Chain (Eq. 5.14)
+## 5. $\mathbb{Z}_2\times\mathbb{Z}_2$ Projective XYZ Chain (Eq. 5.14)
 
 Paper-inspired model:
 

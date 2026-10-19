@@ -172,8 +172,16 @@ plot_eth_diagonal_scatter(result, ax=None, figsize=(6.4, 4.8), marker_size=5.0, 
 - Transverse-field Ising chain
 - XXZ chain
 - Disordered Heisenberg chain
-- $\mathbb{Z}_2 \times \mathbb{Z}_2$ projective XYZ chain (Eq. (5.14)-inspired)
 - Random Pauli-string Hamiltonian
+- $\mathbb{Z}_2 \times \mathbb{Z}_2$ projective XYZ chain
+
+The [demo notebook](notebooks/demo_eth_models.ipynb) covers the first four
+models in this order, followed by a custom model built directly with the API.
+The projective XYZ chain has a separate example in
+[`examples/z2z2_projective_xyz_eth.py`](examples/z2z2_projective_xyz_eth.py).
+
+For a discussion of the projective XYZ chain in the context of ETH, see
+[*Eigenstate Thermalization Hypothesis with projective representation*, Eq. (5.14)](https://arxiv.org/html/2509.01931v2#S5.E14).
 
 For `disordered_heisenberg_chain`, weak disorder is configurable for all
 nearest-neighbor channels (`XX`, `YY`, `ZZ`) and all onsite field directions
